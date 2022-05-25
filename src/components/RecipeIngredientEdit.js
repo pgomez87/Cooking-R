@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function (props) {
+export default function RecipeIngredientEdit(props) {
   const { ingredient, handleIngredientChange, handleIngredientDelete } = props
 
   function handleChange(changes) {
